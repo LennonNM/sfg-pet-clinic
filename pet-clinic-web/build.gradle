@@ -45,10 +45,10 @@ webResources {
     }
 
     bundle ('theme-default') {
-        css 'webjars/bootstrap/3.3.4/less/bootstrap.less'
+        css 'webjars/bootstrap/3.3.6/less/bootstrap.less'
         css 'themes/default/main.css'
 
-        cssOverrideImport 'variables.less', '../../../../themes/default/variables.less'
+//        cssOverrideImport 'variables.less', '../../../../themes/default/variables.less'
         preProcessor 'less4j', 'cssUrlRewriting'
     }
 
