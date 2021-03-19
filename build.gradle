@@ -23,9 +23,7 @@ bootJar {
     enabled = false
 }
 
-test {
-    useJUnitPlatform()
-}
+
 dependencies {
 //Lombok
     compileOnly 'org.projectlombok:lombok:1.18.16'

@@ -20,6 +20,10 @@ repositories {
     mavenLocal()
 }
 
+test {
+    useJUnitPlatform()
+}
+
 dependencies {
     implementation project(':pet-clinic-data')
     testCompile group: 'junit', name: 'junit', version: '4.12'
